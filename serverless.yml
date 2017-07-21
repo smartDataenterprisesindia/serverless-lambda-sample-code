@@ -17,7 +17,7 @@ functions:
           integration: lambda
           authorizer:
             name: authorizer
-            arn: arn:aws:cognito-idp:us-west-2:873586173844:userpool/us-west-2_RCOnSMXqU
+            arn: arn:aws:cognito-idp:*********************************************
             claims:
               - email
   chargingState:
@@ -31,7 +31,7 @@ functions:
           integration: lambda
           authorizer:
             name: authorizer
-            arn: arn:aws:cognito-idp:us-west-2:873586173844:userpool/us-west-2_RCOnSMXqU
+            arn: arn:aws:cognito-idp:*********************************************
             claims:
               - email
 
